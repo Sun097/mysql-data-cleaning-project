@@ -27,13 +27,15 @@ The following cleaning operations were performed:
 - GitHub
 
 ## Repository Structure
+
 mysql-data-cleaning-project
 │
 ├── data
-│   ├── layoffs.csv
+│   ├── layoffs.csv (raw dataset)
+│   └── layoffs_cleaned.csv (cleaned dataset)
 │
 ├── sql
-│   └── data_cleaning.sql
+│   └── data_cleaning.sql (SQL script used for cleaning)
 │
 └── README.md
 
@@ -46,4 +48,5 @@ mysql-data-cleaning-project
 - Data Quality Improvement
 
 ## Project Outcome
-The dataset was successfully cleaned and standardized, making it suitable for further analysis such as identifying layoffs trends by company, industry, or year.
+The dataset was successfully cleaned and standardized using MySQL. 
+The cleaned dataset (layoffs_cleaned.csv) is now ready for further analysis such as identifying layoffs trends by company, industry, or year.
